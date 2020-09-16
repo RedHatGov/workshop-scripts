@@ -9,7 +9,7 @@ Adding the Sub Module
 To add this Git repository as a Git submodule to an existing Git repository for a workshop, run:
 
 ```
-git submodule add -b stable/2.x https://github.com/openshift-homeroom/spawner-scripts.git .workshop/scripts
+git submodule add -b stable/2.x https://github.com/RedHatGov/spawner-scripts.git .workshop/scripts
 ```
 
 Once added as a Git submodule, to pull the source code for it, run:
@@ -25,7 +25,7 @@ To configure the deployments created by the scripts, create in your Git reposito
 
 ```
 WORKSHOP_NAME=lab-markdown-sample
-WORKSHOP_IMAGE=quay.io/openshifthomeroom/lab-markdown-sample:master
+WORKSHOP_IMAGE=quay.io/redhatgov/example-workshop-dashboard:master
 RESOURCE_BUDGET=medium
 MAX_SESSION_AGE=3600
 IDLE_TIMEOUT=300
